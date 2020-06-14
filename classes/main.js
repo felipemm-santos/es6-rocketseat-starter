@@ -10,13 +10,13 @@ class List {
 }
 
 class TodoList extends List {
-  constructor(){
+  constructor() {
     // super: Chama constructor da classe pai
-    super()
-    this.user = 'Felipe'
+    super();
+    this.user = 'Felipe';
   }
-  showUser(){
-    console.log(this.user);    
+  showUser() {
+    console.log(this.user);
   }
 }
 
@@ -24,4 +24,13 @@ const MyList = new TodoList();
 
 document.getElementById('newtodo').onclick = () => MyList.add('Novo todo');
 
-MyList.showUser()
+MyList.showUser();
+
+// Métodos estáticos
+class Matematica {
+  static soma(a, b) {
+    return a + b;
+  }
+}
+
+console.log(Matematica.soma(1, 2));

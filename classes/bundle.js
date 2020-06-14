@@ -72,4 +72,21 @@ document.getElementById('newtodo').onclick = function () {
   return MyList.add('Novo todo');
 };
 
-MyList.showUser();
+MyList.showUser(); // Métodos estáticos
+
+var Matematica = /*#__PURE__*/function () {
+  function Matematica() {
+    _classCallCheck(this, Matematica);
+  }
+
+  _createClass(Matematica, null, [{
+    key: "soma",
+    value: function soma(a, b) {
+      return a + b;
+    }
+  }]);
+
+  return Matematica;
+}();
+
+console.log(Matematica.soma(1, 2));
