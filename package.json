@@ -11,17 +11,17 @@
     "@babel/preset-env": "^7.10.2"
   },
   "scripts": {
-    "devClasses": "babel ./content/classes/main.js -o ./classes/bundle.js -w",
+    "contClasses": "babel ./content/classes/main.js -o ./classes/bundle.js -w",
 
-    "devArrays": "babel ./content/arrays/main.js -o ./content/arrays/bundle.js -w",
+    "contArrays": "babel ./content/arrays/main.js -o ./content/arrays/bundle.js -w",
 
-    "devObjDis": "babel ./content/object-disruption/main.js -o ./content/object-disruption/bundle.js -w",
+    "contObjDis": "babel ./content/object-disruption/main.js -o ./content/object-disruption/bundle.js -w",
 
-    "devRS": "babel ./content/rest-spread/main.js -o ./content/rest-spread/bundle.js -w",
+    "contRS": "babel ./content/rest-spread/main.js -o ./content/rest-spread/bundle.js -w",
 
-    "devUAdmin": "babel ./challenges/user-admin/main.js -o ./challenges/user-admin/bundle.js -w",
+    "chaUAdmin": "babel ./challenges/user-admin/main.js -o ./challenges/user-admin/bundle.js -w",
 
-    "devUArray": "babel ./challenges/user-array/main.js -o ./challenges/user-array/bundle.js -w"
+    "chaUArray": "babel ./challenges/user-array/main.js -o ./challenges/user-array/bundle.js -w"
 
   }
 }
