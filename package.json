@@ -15,6 +15,8 @@
 
     "devArrays": "babel ./arrays/main.js -o ./arrays/bundle.js -w",
 
-    "devObjDis": "babel ./object-disruption/main.js -o ./object-disruption/bundle.js -w"
+    "devObjDis": "babel ./object-disruption/main.js -o ./object-disruption/bundle.js -w",
+
+    "devRS": "babel ./rest-spread/main.js -o ./rest-spread/bundle.js -w"
   }
 }
