@@ -1,0 +1,16 @@
+{
+  "name": "es6-rocketseat-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/felipemm-santos/es6-rocketseat-starter.git",
+  "author": "Felipe Morais Mariano dos Santos <tfelipesantos99s@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
