@@ -12,6 +12,9 @@
   },
   "scripts": {
     "devClasses": "babel ./classes/main.js -o ./classes/bundle.js -w",
-    "devArrays": "babel ./arrays/main.js -o ./arrays/bundle.js -w"
+
+    "devArrays": "babel ./arrays/main.js -o ./arrays/bundle.js -w",
+    
+    "devArrowFunc": "babel ./ArrowFunc/main.js -o ./ArrowFunc/bundle.js -w"
   }
 }
