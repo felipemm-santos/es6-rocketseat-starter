@@ -11,6 +11,7 @@
     "@babel/preset-env": "^7.10.2"
   },
   "scripts": {
-    "devClasses": "babel ./classes/main.js -o ./classes/bundle.js -w"
+    "devClasses": "babel ./classes/main.js -o ./classes/bundle.js -w",
+    "devArrays": "babel ./arrays/main.js -o ./arrays/bundle.js -w"
   }
 }
