@@ -11,7 +11,8 @@
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "contClasses": "babel ./content/classes/main.js -o ./classes/bundle.js -w",
@@ -20,8 +21,8 @@
     "contRS": "babel ./content/rest-spread/main.js -o ./content/rest-spread/bundle.js -w",
     "chaUAdmin": "babel ./challenges/user-admin/main.js -o ./challenges/user-admin/bundle.js -w",
     "chaUArray": "babel ./challenges/user-array/main.js -o ./challenges/user-array/bundle.js -w",
-
-    "dev": "webpack --mode=development -w"
+    "devWebpack": "webpack --mode=development -w",
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
   }
-
 }
