@@ -8,8 +8,10 @@
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/plugin-transform-async-to-generator": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.1.0",    
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
@@ -18,11 +20,12 @@
     "contClasses": "babel ./content/classes/main.js -o ./classes/bundle.js -w",
     "contArrays": "babel ./content/arrays/main.js -o ./content/arrays/bundle.js -w",
     "contObjDis": "babel ./content/object-disruption/main.js -o ./content/object-disruption/bundle.js -w",
-    "contRS": "babel ./content/rest-spread/main.js -o ./content/rest-spread/bundle.js -w",
+    "contRS": "babel ./content/rest-spread/main.js -o ./content/rest-spread/bundle.js -w",    
     "chaUAdmin": "babel ./challenges/user-admin/main.js -o ./challenges/user-admin/bundle.js -w",
     "chaUArray": "babel ./challenges/user-array/main.js -o ./challenges/user-array/bundle.js -w",
     "devWebpack": "webpack --mode=development -w",
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production"
-  }
+    
+  }  
 }
